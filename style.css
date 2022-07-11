@@ -1,0 +1,92 @@
+body{
+    background-color: #0D1A2D;
+}
+
+.main-container{
+    border-radius: 20px;
+    background: #ffffff;
+    width: 450px;
+    height: 750px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    background-color: #15273F;
+    box-shadow: 15px 15px 20px #0b1627;
+}
+.img-container{
+    width: 380px;
+    height: auto;
+    padding: 15px 15px 5px 15px;
+    border-radius: 25px;
+
+}
+
+.text-container{
+    text-align: left;
+}
+
+.title{
+    color: white;
+    text-align: left;
+    padding: 0px 0px 0px 35px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.description{
+    color: #97ACCB;
+    justify-content: left;
+    padding: 0px 45px 0px 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.price-time-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price{
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    padding: 3px 15px 0px 35px;
+    align-items: center;
+}
+
+.time-left{
+    color: #97ACCB;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 3px 35px 0px 0px;
+}
+
+.line{
+    height: 0.5px;
+    background: #2F4159;
+    margin: 0px 35px 0px 35px;
+}
+
+.creator-container{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 0px 35px;
+    justify-content: left;
+}
+
+.avatar{
+    height: 40px;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.creator-name{
+    color: #97ACCB;
+    margin: 0px 0px 0px 15px;
+}
